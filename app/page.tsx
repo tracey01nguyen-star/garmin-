@@ -509,10 +509,9 @@ export default function Page() {
                 <ol className="space-y-2">
                   {[
                     'Download the .json file above',
-                    <>Install the free <a href="https://chromewebstore.google.com/detail/share-your-garmin-connect/kdpolhnlnkengkmfncjdbfdehglepmff" target="_blank" rel="noreferrer" className="underline font-semibold" style={{ color: '#5eadd4' }}>"Share your Garmin Connect workout"</a> Chrome extension</>,
                     <>Go to <a href="https://connect.garmin.com" target="_blank" rel="noreferrer" className="underline" style={{ color: '#5eadd4' }}>connect.garmin.com</a> and log in</>,
-                    'Click the extension icon → Import → select your .json file',
-                    'The workout appears in Training & Planning — sync your watch',
+                    'Import the .json file into Training & Planning',
+                    'Sync your watch — the workout will appear on your device',
                   ].map((step, i) => (
                     <li key={i} className="flex items-start gap-3 text-xs text-[#f5f2ee]/40 leading-relaxed">
                       <span className="flex-shrink-0 font-bold" style={{ color: '#e07070' }}>
